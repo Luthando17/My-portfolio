@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JGA: Food Garden Security</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🌱 Community Food Garden Projects</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#calculator">Calculator</a>
+      <a href="#charts">Charts</a>
+      <a href="#recommendations">Recommendations</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Overview</h2>
+      <p>This website presents research on food garden initiatives to improve food security across South Africa. It includes real case studies, calculations for garden planning, and recommendations for community engagement.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Garden Projects</h2>
+      <div id="projectContainer"></div>
+    </section>
+
+    <section id="calculator">
+      <h2>🌿 Plant Yield Calculator</h2>
+      <label>Garden Area (m²): <input type="number" id="areaInput" /></label>
+      <label>Plant Spacing (m²/plant): <input type="number" id="spacingInput" /></label>
+      <button onclick="calculateYield()">Calculate</button>
+      <p id="calcResult"></p>
+    </section>
+
+    <section id="charts">
+      <h2>📊 Garden Yield Stats</h2>
+      <canvas id="yieldChart" width="400" height="200"></canvas>
+    </section>
+
+    <section id="recommendations">
+      <h2>💡 Recommendations</h2>
+      <ul>
+        <li>Promote tunnel and raised-bed gardening for limited spaces</li>
+        <li>Introduce water recycling & compost systems (e.g., CART)</li>
+        <li>Train local leaders in agro-ecological gardening</li>
+        <li>Use food gardens as platforms for school feeding programs</li>
+
+        <h3>More on recommendations</h3>
+       <li> 1. Community gardens and urban gardens can improve food security.
+            - Promote Accessibility: Ensure that community gardens are located in areas where access to fresh produce is limited, making it easier for residents to obtain healthy food.
+            - Education Programs: Implement workshops that teach gardening skills and nutrition, empowering individuals to grow their own food and understand its importance.
+            - Collaborate with Local Organizations: Partner with food banks and health organizations to distribute fresh produce from community gardens to those in need.</li><br/>
+
+       <li> 2. Sustainable gardening practices are essential for a greener future.
+           - Encourage Organic Practices: Promote the use of organic fertilizers and pest control methods to reduce chemical runoff and improve soil health.
+           - Water Conservation Techniques: Advocate for rainwater harvesting and drip irrigation systems to minimize water waste and promote efficient watering practices.
+           - Biodiversity: Highlight the importance of planting native species and companion planting to support local ecosystems and encourage pollinator populations.</li><br/>
+
+       <li> 3. Community engagement and participation are key to successful gardening projects.
+           - Volunteer Opportunities: Create open calls for volunteers to participate in garden maintenance and activities, fostering a sense of ownership and community.
+           - Inclusive Decision-Making: Involve community members in planning and decision-making processes to ensure that gardens reflect the needs and desires of the local population.
+           - Host Events: Organize community events, such as harvest festivals or garden tours, to celebrate successes and encourage more residents to get involved in gardening initiatives.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PPA/COH Food Gardening - Eco-Friendly </p>
+    <p>Luthando, Eniffer, Sandisa, Malwande, Mbavhalele</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="chart.js"></script>
+</body>
+</html>
