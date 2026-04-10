@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f9f4;
+}
+header {
+  background: #228B22;
+  color: white;
+  padding: 1rem;
+}
+nav a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+#projectContainer article {
+  margin-bottom: 1.5rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+button {
+  padding: 0.5rem 1rem;
+  background: #006400;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+}
+#gardenInputs {
+  margin-top: 1rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+}
+.garden-entry {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.garden-entry label {
+  display: block;
+  margin: 0.25rem 0;
+}
+#calculator input {
+  margin-left: 8px;
+  padding: 4px;
+}
+#calculator button {
+  margin-top: 6px;
+}
+pre {
+  background: #f4f9f4;
+  padding: 8px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.project-img {
+  width: 150px;      /* approximate credit card width in px */
+  height: 95px;      /* approximate credit card height in px */
+  object-fit: cover; /* ensures image covers the box */
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
